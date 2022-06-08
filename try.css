@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    padding: 0px;
+}
+
+body {
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+    background: url(./stephen-leonardi-uLBZ54dVGPY-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    /* border: 1px solid yellowgreen; */
+    margin: 40px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.wrapper .form_container {
+    /* padding: 30px; */
+    background-color: rgb(175, 164, 164);
+    border-radius: 3px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+.wrapper .form_container .heading {
+  text-align: center;  
+  background-color: blue;
+  color: white;
+  font-family: "Bookman Old Style";
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+.wrapper .form_container .form_wrap  {
+padding: 20px;
+}
+
+.wrapper .form_container .form_wrap.fullname {
+   display: flex;
+   gap: 20px;
+
+}
+
+.wrapper .form_container .form_wrap.fullname .form_item {
+    /* width: 100% auto; */
+ }
+
+    
+
+select, input {
+     width: 100%;
+     padding: 10px;
+     border: 2px solid rgba(0, 0, 0, 0.5);
+     background-color: bisque;
+ }
+
+ select, input:focus {
+     border: 3px solid rgb(98, 0, 255);
+     background-color: rgb(55, 43, 226, 0.1);
+ }
+
+ .form_wrap.select_item {
+    display: flex;
+   
+ }
+
+ label {
+    font-weight: bold;
+    color:  rgba(0, 0, 255, 1)
+ }
+
+ .btn input[type="submit"] {
+    background-color: rgb(255, 127, 127, 0.4);
+font-family: "Footlight MT Light";  
+font-size: 1.5em;  
+color: rgb(69, 8, 148); 
+font-weight: bold;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.btn input[type="submit"]:focus {
+background-color: aqua;
+}
+ 
+
+ 
+
+
+
+
+
+
